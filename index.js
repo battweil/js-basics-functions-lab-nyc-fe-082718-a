@@ -11,10 +11,11 @@ function distanceFromHqInFeet(currentLocation){
 }
 
 function distanceTravelledInFeet(startStreet, endStreet){
-  return Math.abs(startStreet-endStreet)*264
+  let feetTravelled = Math.abs(startStreet-endStreet)*264
+  return feetTravelled
 }
 
-function calculatesFarePrice(distanceTravelledInFeet){
+function calculatesFarePrice(feetTravelled){
   if distanceTravelledInFeet <= 400){
     return 0
   }
