@@ -11,8 +11,7 @@ function distanceFromHqInFeet(currentLocation){
 }
 
 function distanceTravelledInFeet(startStreet, endStreet){
-  let feetTravelled = Math.abs(startStreet-endStreet)*264
-  return feetTravelled
+  return Math.abs(startStreet-endStreet)*264
 }
 
 function calculatesFarePrice(feetTravelled){
