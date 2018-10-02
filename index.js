@@ -18,7 +18,10 @@ function calculatesFarePrice(startStreet, endStreet){
     return 0
   }
   else if (){
-    //
+    //2 cents per foot minus first 400
+  }
+  else if (Math.abs(startStreet-endStreet)*264 > 2000){
+    return
   }
 }
 
