@@ -13,7 +13,7 @@ function distanceTravelledInFeet(startStreet, endStreet){
   return Math.abs(startStreet-endStreet)*264
 }
 
-function calculatesFarePrice(feetTravelled){
+function calculatesFarePrice(startStreet, endStreet){
   if (Math.abs(startStreet-endStreet)*264 <= 400){
     return 0
   }
