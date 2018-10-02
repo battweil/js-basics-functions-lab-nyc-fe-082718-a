@@ -14,6 +14,7 @@ function distanceTravelledInFeet(startStreet, endStreet){
 
 function calculatesFarePrice(start, destination){
   if (Math.abs(startStreet-endStreet)*264 <= 400){
-    
+    return 0
   }
+  else if (Math.abs(startStreet-endStreet)*264 < 2000)
 }
