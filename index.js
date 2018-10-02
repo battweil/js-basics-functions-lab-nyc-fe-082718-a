@@ -21,7 +21,7 @@ function calculatesFarePrice(startStreet, endStreet){
   //   //2 cents per foot minus first 400
   // }
   // else if (Math.abs(startStreet-endStreet)*264 > 2000){
-  //   return 'cannot travel that far'
+  //   return '$25'
   // }
   // else if (Math.abs(startStreet-endStreet)*264 > 2500){
   //   return 'cannot travel that far'
