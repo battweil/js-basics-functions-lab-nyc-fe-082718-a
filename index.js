@@ -18,7 +18,7 @@ function calculatesFarePrice(startStreet, endStreet){
     return 0
   }
   else if (Math.abs(startStreet-endStreet)*264 > 400){
-    return ((Math.abs(startStreet-endStreet)*264)-400)*2
+    return (((Math.abs(startStreet-endStreet)*264)-400)*2)/100
   }
   else if (Math.abs(startStreet-endStreet)*264 > 2000){
     return 25
