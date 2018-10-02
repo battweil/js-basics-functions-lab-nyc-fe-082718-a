@@ -23,5 +23,8 @@ function calculatesFarePrice(startStreet, endStreet){
   // else if (Math.abs(startStreet-endStreet)*264 > 2000){
   //   return 'cannot travel that far'
   // }
+  // else if (Math.abs(startStreet-endStreet)*264 > 2500){
+  //   return 'cannot travel that far'
+  // }
 }
 
