@@ -18,3 +18,4 @@ function calculatesFarePrice(startStreet, endStreet){
     return 0
   }
 }
+
