@@ -1,6 +1,5 @@
 // Code your solution in this file!
 
-let distanceTravelledInFeet
 
 function distanceFromHqInBlocks(currentLocation){
   return Math.abs(42-currentLocation)
