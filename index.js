@@ -17,5 +17,8 @@ function calculatesFarePrice(startStreet, endStreet){
   if (Math.abs(startStreet-endStreet)*264 <= 400){
     return 0
   }
+  else if {
+    
+  }
 }
 
